@@ -1,0 +1,60 @@
+.header-redes {
+  background-color: #121215;
+  padding: 2px;
+  padding-left: 60px;
+}
+
+.header-redes img {
+  margin-right: 6px;
+  padding: 4px;
+  width: 20px;
+  height: auto;
+}
+
+.header-background {
+  background-color: #D92D2F;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.logo img {
+  width: 240px;
+  height: auto;
+}
+
+.conteudo-header a {
+color: #E4ECEE;
+font-family: "Saira", sans-serif;
+font-optical-sizing: auto;
+font-weight: 600;
+font-size: 1rem;
+font-style: normal;
+margin-right: 30px;
+}
+
+.conteudo-header img {
+  width: 16px;
+  height: auto;
+  margin-right: 8px; /* Espaçamento maior entre o ícone e o texto */
+}
+
+.botao-agendar-header {
+  display: inline-flex;     /* Alinha o ícone e o texto lado a lado */
+  align-items: center;      /* Centraliza verticalmente o ícone e o texto */
+  color: #E4ECEE;
+  font-family: "Saira", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 0.8rem;
+  background-color: #121215;
+  padding: 4px 20px;       /* Aumenta o padding para um melhor espaço */
+  border-radius: 16px 0px 16px 0px;
+  box-shadow: #12121581 2px 2px 2px;
+  text-decoration: none;    /* Remove o sublinhado do link */
+}
+

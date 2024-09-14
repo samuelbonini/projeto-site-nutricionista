@@ -1,0 +1,58 @@
+.background-index {
+  display: flex;
+  background-image: url(imagens/wallpaper-fundo.png);
+  height: 80vh;
+  background-size: cover;
+  background-position: center center;
+}
+.conteudo-index {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 600px;
+  padding-left: 30px;
+}
+
+.conteudo-index h1 {
+  color: #121215;
+  font-family: "Saira", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  padding-bottom: 10px;
+  font-size: 1.4rem;
+}
+
+.conteudo-index p {
+  color: #121215;
+  font-family: "Saira", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1rem;
+  padding-bottom: 20px;
+}
+
+.conteudo-index a {
+  display: inline-flex;     /* Alinha o ícone e o texto lado a lado */
+  align-items: center;      /* Centraliza verticalmente o ícone e o texto */
+  color: #E4ECEE;
+  font-family: "Saira", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1rem;
+  background-color: #121215;
+  padding: 4px 20px;       /* Aumenta o padding para um melhor espaço */
+  border-radius: 16px 0px 16px 0px;
+  box-shadow: #12121581 2px 2px 2px;
+  text-decoration: none;    /* Remove o sublinhado do link */
+  align-self: flex-start;   /* Alinha o botão à esquerda */
+}
+
+.conteudo-index img {
+  width: 18px;
+  height: auto;
+  margin-right: 8px; /* Espaçamento maior entre o ícone e o texto */
+}
