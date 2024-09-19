@@ -1,0 +1,40 @@
+.conteudo-abordagens {
+background-color: #D92D2F;
+padding: 30px;
+justify-content: center;
+align-items: center;
+display: flex;
+flex-direction: column;
+}
+
+
+.container-titulo-abord h1 {
+  text-align: center;
+  font-family: "Saira", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 1.6rem;
+  color: #E4ECEE;
+}
+
+.container-titulo-abord p {
+  text-align: center;
+  font-family: "Saira", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 1rem;
+  color: #E4ECEE;
+}
+
+.texto-abordagem {
+  font-family: "Saira", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1rem;
+  color: #E4ECEE;
+  max-width: 700px;
+  text-align: center;
+}

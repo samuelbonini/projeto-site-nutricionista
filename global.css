@@ -1,5 +1,8 @@
 @import url(header.css);
 @import url(inicio.css);
+@import url(abordagem.css);
+@import url(trabalhos.css);
+@import url(agendar.css);
 
 * {
   padding: 0;

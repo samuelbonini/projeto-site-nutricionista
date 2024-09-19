@@ -1,0 +1,126 @@
+.container-trabalhos-branco {
+  padding: 60px;
+  background-color: #E4ECEE;
+}
+
+.trabalhos-conteudo-branco {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.textos-trabalho-branco {
+  margin-left: 30px;
+}
+
+.textos-trabalho-branco h1 {
+  font-family: "Saira", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 1.6rem;
+  color: #121215;
+}
+
+.textos-trabalho-branco p {
+  font-family: "Saira", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1rem;
+  color: #121215;
+  margin-bottom: 10px;
+  max-width: 500px;
+}
+
+.botao-trabalho-branco {
+  display: inline-flex;     /* Alinha o ícone e o texto lado a lado */
+  align-items: center;      /* Centraliza verticalmente o ícone e o texto */
+  color: #E4ECEE;
+  font-family: "Saira", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1rem;
+  background-color: #121215;
+  padding: 4px 20px;       /* Aumenta o padding para um melhor espaço */
+  border-radius: 16px 0px 16px 0px;
+  box-shadow: #12121581 2px 2px 2px;
+  text-decoration: none;    /* Remove o sublinhado do link */
+  align-self: flex-start;   /* Alinha o botão à esquerda */
+}
+
+.botao-trabalho-branco img {
+  width: 18px;
+  height: auto;
+  margin-right: 8px; /* Espaçamento maior entre o ícone e o texto */
+}
+
+.trabalhos-conteudo-branco img {
+  box-shadow: #12121507 6px 6px 6px;
+}
+
+/* CONTEUDO TRABALHO PRETO */ 
+
+.container-trabalhos-preto {
+  padding: 60px;
+  background-color: #121215;
+}
+
+.trabalhos-conteudo-preto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.textos-trabalho-preto {
+  margin-right: 30px;
+}
+
+.textos-trabalho-preto h1 {
+  font-family: "Saira", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1.6rem;
+  color: #E4ECEE;
+}
+
+.textos-trabalho-preto p {
+  font-family: "Saira", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1rem;
+  color: #E4ECEE;
+  margin-bottom: 10px;
+  max-width: 600px;
+}
+
+.botao-trabalho-preto {
+  display: inline-flex;     /* Alinha o ícone e o texto lado a lado */
+  align-items: center;      /* Centraliza verticalmente o ícone e o texto */
+  color: #E4ECEE;
+  font-family: "Saira", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1rem;
+  background-color: #D92D2F;
+  padding: 4px 20px;       /* Aumenta o padding para um melhor espaço */
+  border-radius: 16px 0px 16px 0px;
+  box-shadow: #12121581 2px 2px 2px;
+  text-decoration: none;    /* Remove o sublinhado do link */
+  align-self: flex-start;   /* Alinha o botão à esquerda */
+}
+
+.botao-trabalho-preto img {
+  width: 18px;
+  height: auto;
+  margin-right: 8px; /* Espaçamento maior entre o ícone e o texto */
+}
+
+.trabalhos-conteudo-preto img {
+  box-shadow: #12121509 6px 6px 6px;
+}
