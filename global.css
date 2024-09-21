@@ -3,6 +3,8 @@
 @import url(abordagem.css);
 @import url(trabalhos.css);
 @import url(agendar.css);
+@import url(funciona-mapa.css);
+@import url(sobre.css);
 
 * {
   padding: 0;

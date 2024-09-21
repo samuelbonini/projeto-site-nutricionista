@@ -1,0 +1,39 @@
+.container-comofunciona {
+  background-color: #E4ECEE;
+  padding: 30px;
+}
+
+.container-comofunciona h1 {
+  display: flex;
+  color: #121215;
+  font-family: "Saira", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+}
+
+.container-comofunciona p {
+  display: flex;
+  color: #121215;
+  font-family: "Saira", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.mapa {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-comofunciona iframe {
+  width: 1000px;
+  height: 300px;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}

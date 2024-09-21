@@ -1,0 +1,49 @@
+.container-sobre {
+  background-color: #E4ECEE;
+  padding: 60px;
+  display: flex;
+}
+
+.container-sobre img {
+  width: auto;
+  height: 400px;
+}
+
+.titulo h1 {
+  color: #121215;
+  font-family: "Saira", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1.4rem;
+  margin-left: 30px;
+}
+
+.titulo span {
+  color: #D92D2F;
+}
+
+.textos-sobre span {
+  color: #121215;
+  font-family: "Saira", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 0.8rem;
+  margin-left: 30px;
+  margin-bottom:10px;
+}
+
+.textos-sobre p {
+  color: #121215;
+  font-family: "Saira", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1rem;
+  margin-left: 30px;
+  margin-bottom:10px;
+  max-width: 600px;
+}
+
+
