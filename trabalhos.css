@@ -1,6 +1,6 @@
 .container-trabalhos-branco {
   padding: 60px;
-  background-color: #E4ECEE;
+  background-color: #e4ecee;
 }
 
 .trabalhos-conteudo-branco {
@@ -34,20 +34,20 @@
 }
 
 .botao-trabalho-branco {
-  display: inline-flex;     /* Alinha o ícone e o texto lado a lado */
-  align-items: center;      /* Centraliza verticalmente o ícone e o texto */
-  color: #E4ECEE;
+  display: inline-flex; /* Alinha o ícone e o texto lado a lado */
+  align-items: center; /* Centraliza verticalmente o ícone e o texto */
+  color: #e4ecee;
   font-family: "Saira", sans-serif;
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
   font-size: 1rem;
   background-color: #121215;
-  padding: 4px 20px;       /* Aumenta o padding para um melhor espaço */
+  padding: 4px 20px; /* Aumenta o padding para um melhor espaço */
   border-radius: 16px 0px 16px 0px;
   box-shadow: #12121581 2px 2px 2px;
-  text-decoration: none;    /* Remove o sublinhado do link */
-  align-self: flex-start;   /* Alinha o botão à esquerda */
+  text-decoration: none; /* Remove o sublinhado do link */
+  align-self: flex-start; /* Alinha o botão à esquerda */
 }
 
 .botao-trabalho-branco img {
@@ -60,7 +60,7 @@
   box-shadow: #12121507 6px 6px 6px;
 }
 
-/* CONTEUDO TRABALHO PRETO */ 
+/* CONTEUDO TRABALHO PRETO */
 
 .container-trabalhos-preto {
   padding: 60px;
@@ -73,7 +73,6 @@
   align-items: center;
 }
 
-
 .textos-trabalho-preto {
   margin-right: 30px;
 }
@@ -84,7 +83,7 @@
   font-weight: 500;
   font-style: normal;
   font-size: 1.6rem;
-  color: #E4ECEE;
+  color: #e4ecee;
 }
 
 .textos-trabalho-preto p {
@@ -93,26 +92,26 @@
   font-weight: 400;
   font-style: normal;
   font-size: 1rem;
-  color: #E4ECEE;
+  color: #e4ecee;
   margin-bottom: 10px;
   max-width: 600px;
 }
 
 .botao-trabalho-preto {
-  display: inline-flex;     /* Alinha o ícone e o texto lado a lado */
-  align-items: center;      /* Centraliza verticalmente o ícone e o texto */
-  color: #E4ECEE;
+  display: inline-flex; /* Alinha o ícone e o texto lado a lado */
+  align-items: center; /* Centraliza verticalmente o ícone e o texto */
+  color: #e4ecee;
   font-family: "Saira", sans-serif;
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
   font-size: 1rem;
-  background-color: #D92D2F;
-  padding: 4px 20px;       /* Aumenta o padding para um melhor espaço */
+  background-color: #d92d2f;
+  padding: 4px 20px; /* Aumenta o padding para um melhor espaço */
   border-radius: 16px 0px 16px 0px;
   box-shadow: #12121581 2px 2px 2px;
-  text-decoration: none;    /* Remove o sublinhado do link */
-  align-self: flex-start;   /* Alinha o botão à esquerda */
+  text-decoration: none; /* Remove o sublinhado do link */
+  align-self: flex-start; /* Alinha o botão à esquerda */
 }
 
 .botao-trabalho-preto img {

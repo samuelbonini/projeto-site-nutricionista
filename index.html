@@ -1,162 +1,177 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <title>Mariana Barreto - Nutricionista</title>
   <link rel="stylesheet" href="global.css">
 </head>
+
 <body>
 
-  <header>
-      <nav class="header-redes">
-        <a href="#"><img src="imagens/redes/insta.svg" alt=""></a>
-        <a href=""><img src="imagens/redes/face.svg" alt=""></a>
-        <a href=""><img src="imagens/redes/whats.svg" alt=""></a>
-      </nav>
-  
-    <div class="header-background">
-      <nav class="logo">
-        <a href="#"><img src="imagens/logo-nutri.svg" alt=""></a>
-      </nav>
-      <nav class="conteudo-header">
-        <a href="#">Home</a>
-        <a href="sobre.html">Sobre</a>
-        <a href="#">Serviços</a>
-        <a href="#" class="botao-agendar-header">
-          <img src="imagens/redes/whats.svg" alt="">
-          Agendar Consulta
-        </a>
-      </nav>
+
+  <!-- MODO MOBILE -->
+  <input type="checkbox" id="menu">
+  <!-- FIM MODO MOBILE -->
+
+  <header class="header-index">
+    <div class="horario-header">
+      <span class="span-header">Horário: 08:00 até 12:00 / 13:30 até 19:00 - </span>
+      <span class="span-header">Cachoeira do Sul - RS</span>
+    </div>
+
+    <div class="header-menu">
+
+      <ul>
+        <li class="logo-header"><a href="index.html"><img src="imagens/logo-nutri.svg" alt="logo"></a></li>
+      </ul>
+
+      <!-- MODO MOBILE -->
+      <label for="menu">
+        <div></div>
+        <div></div>
+        <div></div>
+      </label>
+      <!-- FIM MODO MOBILE -->
+      <ul class="header-buttons">
+        <li><a href="index.html">Início</a></li>
+        </li>
+        <li><a href="sobre.html">Sobre</a></li>
+        </li>
+        <li class="icon-whats botao-agende-header"><a href="#"><img src="imagens/redes/whats.svg" alt="whats">Agende sua sessão</a></li>
+        </li>
+      </ul>
     </div>
   </header>
 
   <main>
-<section class="background-index">
-  <div class="conteudo-index">
-    <h1>Você já pensou em ir em uma nutricionista que irá avaliar sua saude global?</h1>
-    <p>Desde a qualidade do sono, saúde intestinal, performance física e mental, exames bioquímicos e alcançar os objetivos que você tanto almeja com individualidade e muito conhecimento!</p>
-    <a href="#" class="botao-agendar">
-    <img src="imagens/redes/whats.svg" alt="">
-    Agendar Consulta
-  </a>
-  </div>
-</section>
-
-<section class="conteudo-abordagens">
-  <div class="container-titulo-abord">
-    <h1>Abordagens Nutricionais</h1>
-    <p>Por que consultar um Nutricionista?</p>
-  </div>
-  <p class="texto-abordagem">Muitas pessoas acreditam que o nutricionista é necessário apenas para objetivos estéticos ou de auto-estima, como melhorar a composição corporal e o desempenho esportivo. No entanto, uma dieta personalizada vai muito além disso, podendo contribuir significativamente para a melhora de diversos sintomas e condições de saúde. Alimentação inadequada pode agravar problemas como falta de energia, desequilíbrios hormonais, disfunções digestivas (como gastrite e refluxo), baixa imunidade, intolerâncias alimentares, alergias, queda de cabelo, unhas frágeis, doenças autoimunes, acne, entre outros. Se sua saúde ou performance não estão ideais, a nutrição pode ser uma grande aliada.</p>
-</section>
-
-<section class="container-trabalhos-branco">
-  <div class="trabalhos-conteudo-branco">
-    <img src="imagens/imagens-servicos/equilibrio.png" alt="">
-    <div class="textos-trabalho-branco">
-      <h1>Equilíbrio Nutricional</h1>
-      <p>Identifica e corrige os desequilíbrios nutricionais que afetam seu bem-estar.Foca em tratar a causa dos problemas e não apenas os sintomas.</p>
-      <a href="#" class="botao-trabalho-branco">
-        <img src="imagens/icon-botao-saibamias.svg" alt="">
-        Agendar Consulta
-      </a>
-    </div>
-  </div>
-</section>
-
-<section class="container-trabalhos-preto">
-  <div class="trabalhos-conteudo-preto">
-    <div class="textos-trabalho-preto">
-      <h1>Controle de Peso</h1>
-      <p>A chave não é comer menos, mas sim escolher os alimentos certos para o seu corpo. Descubra como uma nutrição adequada pode acelerar seu processo de perda de peso.</p>
-      <a href="#" class="botao-trabalho-preto">
-        <img src="imagens/icon-botao-saibamias.svg" alt="">
-        Agendar Consulta
-      </a>
-    </div>
-    <img src="imagens/imagens-servicos/controle.png" alt="">
-  </div>
-</section>
-
-<section class="container-trabalhos-branco">
-  <div class="trabalhos-conteudo-branco">
-    <img src="imagens/imagens-servicos/hiper.png" alt="">
-    <div class="textos-trabalho-branco">
-      <h1>Hipertrofia Muscular</h1>
-      <p>Maximize seus ganhos musculares com uma dieta alinhada ao seu treino. Nutrição adequada é a base para transformar esforço em resultados visíveis.</p>
-      <a href="#" class="botao-trabalho-branco">
-        <img src="imagens/icon-botao-saibamias.svg" alt="">
-        Agendar Consulta
-      </a>
-    </div>
-  </div>
-</section>
-
-<section class="container-trabalhos-preto">
-  <div class="trabalhos-conteudo-preto">
-    <div class="textos-trabalho-preto">
-      <h1>Nutrição Esportiva</h1>
-      <p>Nutrição estratégica para levar seu desempenho esportivo ao próximo nível. A alimentação correta é tão importante quanto o treino para alcançar seu melhor.</p>
-      <a href="#" class="botao-trabalho-preto">
-        <img src="imagens/icon-botao-saibamias.svg" alt="">
-        Agendar Consulta
-      </a>
-    </div>
-    <img src="imagens/imagens-servicos/nutri.png" alt="">
-  </div>
-</section>
-
-<section class="container-trabalhos-branco">
-  <div class="trabalhos-conteudo-branco">
-    <img src="imagens/imagens-servicos/intolerancia.png" alt="">
-    <div class="textos-trabalho-branco">
-      <h1>Intolerâncias Alimentares</h1>
-      <p>Identifique e adapte sua dieta para evitar desconfortos e melhorar sua qualidade de vida. Alimente-se de forma segura e saborosa, respeitando suas necessidades e restrições alimentares.</p>
-      <a href="#" class="botao-trabalho-branco">
-        <img src="imagens/icon-botao-saibamias.svg" alt="">
-        Agendar Consulta
-      </a>
-    </div>
-  </div>
-</section>
-
-<section class="container-agende">
-  <h1 class="titulo-agende">Agende sua Consulta</h1>
-  <div class="conteudo-agende">
-    <img src="imagens/pessoa.png" alt="">
-      <div class="textos-agende">
-        <h2>Mariana Barreto</h2>
-        <a href="#" class="link-agende"><img src="imagens/icons-consulta/telefone.svg" alt="">(61) 99857-0210</a>
-        <a href="#" class="link-agende"><img src="imagens/icons-consulta/email.svg" alt="">seuemailaqui@gmail.com</a>
-        <a href="#" class="link-agende"><img src="imagens/icons-consulta/local.svg" alt="">Rua Monick Sul, Sala 227, Rio Grande do Sul, RS</a>
-        <a href="#" class="link-agende"><img src="imagens/icons-consulta/atendimento.svg" alt="">Atendimento de Segunda a Sexta das 08:00 às 20:00</a>
-        <a href="#" class="link-agende botao-agende">
+    <section class="background-index">
+      <div class="conteudo-index">
+        <h1>Você já pensou em ir em uma nutricionista que irá avaliar sua saude global?</h1>
+        <p>Desde a qualidade do sono, saúde intestinal, performance física e mental, exames bioquímicos e alcançar os objetivos que você tanto almeja com individualidade e muito conhecimento!</p>
+        <a href="#" class="botao-agendar">
           <img src="imagens/redes/whats.svg" alt="">
           Agendar Consulta
         </a>
       </div>
-  </div>
-</section>
+    </section>
 
-<section class="container-comofunciona">
-  <h1>Como Funciona?</h1>
-  <p>Uma consulta envolve o agendamento, seguido pela anamnese e avaliação física, onde são coletadas informações sobre saúde, histórico médico e hábitos alimentares
-<br>
-    Com base nesses dados, realizamos um diagnóstico nutricional e fornece orientações alimentares personalizadas. Durante a consulta, também são oferecidas informações educacionais, esclarecimento de dúvidas e, se necessário, é desenvolvido um plano alimentar individualizado. 
-    <br>
-    Agende já!
-    </p>
-    
-    <div class="mapa">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8817767.45289048!2d-58.96106756728875!3d-30.309988379067974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9504720c40b45803%3A0xad9fb3dbaf9f73de!2sRio%20Grande%20do%20Sul!5e1!3m2!1spt-BR!2sbr!4v1726875596188!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
-</section>
+    <section class="conteudo-abordagens">
+      <div class="container-titulo-abord">
+        <h1>Abordagens Nutricionais</h1>
+        <p>Por que consultar um Nutricionista?</p>
+      </div>
+      <p class="texto-abordagem">Muitas pessoas acreditam que o nutricionista é necessário apenas para objetivos estéticos ou de auto-estima, como melhorar a composição corporal e o desempenho esportivo. No entanto, uma dieta personalizada vai muito além disso, podendo contribuir significativamente para a melhora de diversos sintomas e condições de saúde. Alimentação inadequada pode agravar problemas como falta de energia, desequilíbrios hormonais, disfunções digestivas (como gastrite e refluxo), baixa imunidade, intolerâncias alimentares, alergias, queda de cabelo, unhas frágeis, doenças autoimunes, acne, entre outros. Se sua saúde ou performance não estão ideais, a nutrição pode ser uma grande aliada.</p>
+    </section>
+
+    <section class="container-trabalhos-branco">
+      <div class="trabalhos-conteudo-branco">
+        <img src="imagens/imagens-servicos/equilibrio.png" alt="">
+        <div class="textos-trabalho-branco">
+          <h1>Equilíbrio Nutricional</h1>
+          <p>Identifica e corrige os desequilíbrios nutricionais que afetam seu bem-estar.Foca em tratar a causa dos problemas e não apenas os sintomas.</p>
+          <a href="#" class="botao-trabalho-branco">
+            <img src="imagens/icon-botao-saibamias.svg" alt="">
+            Agendar Consulta
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="container-trabalhos-preto">
+      <div class="trabalhos-conteudo-preto">
+        <div class="textos-trabalho-preto">
+          <h1>Controle de Peso</h1>
+          <p>A chave não é comer menos, mas sim escolher os alimentos certos para o seu corpo. Descubra como uma nutrição adequada pode acelerar seu processo de perda de peso.</p>
+          <a href="#" class="botao-trabalho-preto">
+            <img src="imagens/icon-botao-saibamias.svg" alt="">
+            Agendar Consulta
+          </a>
+        </div>
+        <img src="imagens/imagens-servicos/controle.png" alt="">
+      </div>
+    </section>
+
+    <section class="container-trabalhos-branco">
+      <div class="trabalhos-conteudo-branco">
+        <img src="imagens/imagens-servicos/hiper.png" alt="">
+        <div class="textos-trabalho-branco">
+          <h1>Hipertrofia Muscular</h1>
+          <p>Maximize seus ganhos musculares com uma dieta alinhada ao seu treino. Nutrição adequada é a base para transformar esforço em resultados visíveis.</p>
+          <a href="#" class="botao-trabalho-branco">
+            <img src="imagens/icon-botao-saibamias.svg" alt="">
+            Agendar Consulta
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="container-trabalhos-preto">
+      <div class="trabalhos-conteudo-preto">
+        <div class="textos-trabalho-preto">
+          <h1>Nutrição Esportiva</h1>
+          <p>Nutrição estratégica para levar seu desempenho esportivo ao próximo nível. A alimentação correta é tão importante quanto o treino para alcançar seu melhor.</p>
+          <a href="#" class="botao-trabalho-preto">
+            <img src="imagens/icon-botao-saibamias.svg" alt="">
+            Agendar Consulta
+          </a>
+        </div>
+        <img src="imagens/imagens-servicos/nutri.png" alt="">
+      </div>
+    </section>
+
+    <section class="container-trabalhos-branco">
+      <div class="trabalhos-conteudo-branco">
+        <img src="imagens/imagens-servicos/intolerancia.png" alt="">
+        <div class="textos-trabalho-branco">
+          <h1>Intolerâncias Alimentares</h1>
+          <p>Identifique e adapte sua dieta para evitar desconfortos e melhorar sua qualidade de vida. Alimente-se de forma segura e saborosa, respeitando suas necessidades e restrições alimentares.</p>
+          <a href="#" class="botao-trabalho-branco">
+            <img src="imagens/icon-botao-saibamias.svg" alt="">
+            Agendar Consulta
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="container-agende">
+      <h1 class="titulo-agende">Agende sua Consulta</h1>
+      <div class="conteudo-agende">
+        <img src="imagens/pessoa.png" alt="">
+        <div class="textos-agende">
+          <h2>Mariana Barreto</h2>
+          <a href="#" class="link-agende"><img src="imagens/icons-consulta/telefone.svg" alt="">(61) 99857-0210</a>
+          <a href="#" class="link-agende"><img src="imagens/icons-consulta/email.svg" alt="">seuemailaqui@gmail.com</a>
+          <a href="#" class="link-agende"><img src="imagens/icons-consulta/local.svg" alt="">Rua Monick Sul, Sala 227, Rio Grande do Sul, RS</a>
+          <a href="#" class="link-agende"><img src="imagens/icons-consulta/atendimento.svg" alt="">Atendimento de Segunda a Sexta das 08:00 às 20:00</a>
+          <a href="#" class="link-agende botao-agende">
+            <img src="imagens/redes/whats.svg" alt="">
+            Agendar Consulta
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="container-comofunciona">
+      <h1>Como Funciona?</h1>
+      <p>Uma consulta envolve o agendamento, seguido pela anamnese e avaliação física, onde são coletadas informações sobre saúde, histórico médico e hábitos alimentares
+        <br>
+        Com base nesses dados, realizamos um diagnóstico nutricional e fornece orientações alimentares personalizadas. Durante a consulta, também são oferecidas informações educacionais, esclarecimento de dúvidas e, se necessário, é desenvolvido um plano alimentar individualizado.
+        <br>
+        Agende já!
+      </p>
+
+      <div class="mapa">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8817767.45289048!2d-58.96106756728875!3d-30.309988379067974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9504720c40b45803%3A0xad9fb3dbaf9f73de!2sRio%20Grande%20do%20Sul!5e1!3m2!1spt-BR!2sbr!4v1726875596188!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </section>
 
   </main>
 
 </body>
+
 </html>
