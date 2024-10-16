@@ -13,34 +13,42 @@
 
 <body>
 
-  <header>
-    <nav class="header-redes">
-      <a href="#"><img src="imagens/redes/insta.svg" alt="instagram icon"></a>
-      <a href=""><img src="imagens/redes/face.svg" alt="facebook icon"></a>
-      <a href=""><img src="imagens/redes/whats.svg" alt="whatsapp icon"></a>
-    </nav>
+  <div class="horario-header">
+    <span class="span-header">Seg a Sex, 08:00 até 12:00 / 13:30 até 19:00 - </span>
+    <span class="span-header">Cachoeira do Sul - RS</span>
+  </div>
+  
+  <!-- MODO MOBILE -->
+<input type="checkbox" id="menu">
 
-    <div class="header-background">
-      <nav class="logo">
-        <a href="index.html"><img src="imagens/logo-nutri.svg" alt="logo"></a>
-      </nav>
-      <nav class="conteudo-header">
-        <a href="index.html">Home</a>
-        <a href="sobre.html">Sobre</a>
-        <a href="#">Serviços</a>
-        <a href="#" class="botao-agendar-header">
-          <img src="imagens/redes/whats.svg" alt="whatsapp">
-          Agendar Consulta
-        </a>
-      </nav>
-    </div>
+
+  <header>
+        <div  class="logo">
+          <a href="index.html"><img src="imagens/logo-nutri.svg" alt="logo"></a>
+        </div>
+
+        <!-- MODO MOBILE -->
+<label for="menu">
+  <div></div>
+  <div></div>
+  <div></div>
+</label>
+        <!-- FIM MODO MOBILE -->
+        <nav class="js-menu">
+          <a href="index.html">Início</a>
+          <a href="sobre.html">Sobre</a>
+          <a href="index.html">Serviços</a>
+          <a href="#" class="botao-agendar-header">
+            <img src="imagens/redes/whats.svg" alt="whats">Agendar Consulta
+          </a>
+        </nav>
   </header>
 
   <main>
 
     <section class="container-sobre">
       <img src="imagens/pessoa.png" alt="pessoa">
-      <div>
+      <div class="fade-in">
         <div class="titulo">
           <h1>Olá, me chamo <span>Mariana Barreto</span></h1>
         </div>
@@ -82,10 +90,10 @@
           </div>
       </div>
     </section>
-
-
   </main>
 
+  <footer>
+    <p>Site desenvolvido por <a href="https://github.com/samuelbonini" target="_blank">@samuelbonini</a></p>
+  </footer>
 </body>
-
 </html>

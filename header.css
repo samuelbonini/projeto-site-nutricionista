@@ -1,0 +1,175 @@
+.horario-header {
+  background-color: #E4ECEE;
+  padding: 8px;
+}
+
+.span-header {
+  color: #121215;
+  font-family: "Saira", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 0.8rem;
+  justify-content: end;
+  align-items: flex-start;
+}
+
+header {
+  background-color: #D92D2F;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 66px;
+width: 100%;
+z-index: 100;
+box-shadow: 0px 0px 20px rgba(70, 1, 1, 0.01);
+}
+.logo img {
+  height: auto;
+  width: 240px;
+  margin-left: 30px;
+}
+
+.botao-agendar-header {
+   display: inline-flex;
+}
+
+.botao-agendar-header img {
+  margin-right: 5px;
+  justify-content: center;
+  align-items: center;
+  height:  1.2rem;
+  width:  1.2rem;
+  
+}
+
+nav {
+  display: flex;
+  margin-right: 30px;
+}
+nav a {
+  align-items: center;
+  background-color: #E4ECEE;
+  border: none;
+  padding: 5px 16px;
+  border-radius: 10px;
+  margin-right: 10px;
+  color: #121215;
+  font-family: "Saira", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1rem;
+  box-shadow: 1px 2px 5px #002a591a;
+  transition: transform 0.6s ease, background-color 0.3s ease; /* Transição suave para expansão e cores */
+}
+
+.botao-agendar-header {
+  background-color: #121215;
+  color: #E4ECEE; /* Cor do texto ao passar o mouse */
+}
+
+nav a:hover {
+  background-color: #121215; /* Cor de fundo ao passar o mouse */
+  color: #E4ECEE; /* Cor do texto ao passar o mouse */
+  box-shadow: #12121581 2px 2px 2px;
+  transform: scale(1.05); /* Expande o elemento para 110% do seu tamanho original */
+}
+.botao-agendar-header:hover {
+  background-color: #232329; /* Cor de fundo ao passar o mouse */
+  transform: scale(1.05); /* Expande o elemento para 110% do seu tamanho original */
+}
+
+
+input {
+  display: none;
+}
+
+
+@media (max-width: 800px) {
+  nav {
+    position: absolute;
+    top: 100px;
+    background: #D92D2F;
+    left: 0;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    transition: 0.5s;
+    overflow: hidden;
+    gap: 10px;
+    z-index: 1000;
+    height: 0;
+    box-shadow: #12121581 2px 2px 2px;
+  }
+
+  nav a:nth-child(1) {
+    margin-top: 30px;
+  }
+  
+  label {
+    width: 45px;
+    height: 20px;
+    position: relative;
+    margin-right: 30px;
+  }
+
+  label div {
+    width: 100%;
+    height: 5px;
+    background: #E4ECEE;
+    position: absolute;
+    transform: translateY(-50%);
+    border-radius: 99px;
+    transition: 0.3s;
+    transform: scale(1);
+ }
+
+ label div:nth-child(1) {
+  top: 0;
+}
+
+label div:nth-child(2) {
+  top: 50%;
+}
+
+label div:nth-child(3) {
+  top: 100%;
+}
+
+input:checked + header nav {
+  height: 32vh;
+    }
+
+    input:checked + header label div:nth-child(1) {
+      transform: rotate(45deg);
+      top: 50%;
+    }
+
+    input:checked + header label div:nth-child(3) {
+      transform: rotate(-45deg);
+      top: 50%;
+    }
+
+    input:checked + header label div:nth-child(2) {
+     transform: scale(0);
+     opacity: 0;
+    }
+  }
+
+@media (max-width: 440px) {
+  .span-header {
+    justify-content: end;
+    align-items: flex-start;
+    font-size: 0.6rem;
+  }
+  label {
+    width: 35px;
+    height: 20px;
+    position: relative;
+    margin-right: 30px;
+  }
+}
+
+/* FIM CSS HEADER */

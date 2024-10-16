@@ -55,6 +55,48 @@
 .mapa-sobre iframe {
   width: 360px;
   height: 260px;
-  margin-top: 30px;
-  margin-bottom: 30px;
+}
+
+@media (max-width: 700px) {
+  .container-sobre {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+    margin: 0px;
+  }
+
+.titulo h1 {
+  margin-left: 0px;
+}
+
+.textos-sobre span, .textos-sobre p  {
+margin: 0px;
+}
+
+  .container-sobre img {
+    border-radius: 200px 200px 200px 200px;
+    width: 200px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+
+  .mapa-sobre iframe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 260px;
+    height: 240px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+}
+
+@media (max-width: 580px) {
+  .mapa-sobre iframe {
+    width: 260px;
+    height: 240px;
+    margin-bottom: 20px;
+  }
 }

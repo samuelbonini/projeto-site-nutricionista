@@ -35,3 +35,57 @@ ul {
 a {
   text-decoration: none;
 }
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #121215;
+  padding: 2px;
+}
+
+footer p {
+  font-family: "Saira", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 0.8rem;
+  color: #e4ecee;
+}
+
+footer a {
+  font-family: "Markazi Text", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 1rem;
+  color: #d92d2f;
+}
+
+/* ANIMAÇAO FADEIN */
+@keyframes fadeIn {
+  from {
+    opacity: 0; /* Começa invisível */
+  }
+  to {
+    opacity: 1; /* Torna-se completamente visível */
+  }
+}
+
+/* Aplica a animação aos elementos */
+.fade-in {
+  animation: fadeIn 2s ease-out forwards; /* 2 segundos de duração, com efeito de desaceleração no final */
+}
+
+/* Classe base para os elementos invisíveis no início */
+.hidden {
+  opacity: 0;
+  transform: translateY(20px); /* Move o elemento para baixo para criar um efeito de entrada */
+  transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+/* Classe aplicada quando o elemento está visível */
+.visible {
+  opacity: 1;
+  transform: translateY(0);
+}

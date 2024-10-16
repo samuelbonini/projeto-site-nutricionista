@@ -13,29 +13,60 @@
 
 <body>
 
-  
-
-<section class="background-index">
-  <div class="conteudo-index">
-    <h1>Você já pensou em ir em uma nutricionista que irá avaliar sua saude global?</h1>
-    <p>Desde a qualidade do sono, saúde intestinal, performance física e mental, exames bioquímicos e alcançar os objetivos que você tanto almeja com individualidade e muito conhecimento!</p>
-    <a href="#" class="botao-agendar">
-    <img src="imagens/redes/whats.svg" alt="whatsapp">
-    Agendar Consulta
-  </a>
+  <div class="horario-header">
+    <span class="span-header">Seg a Sex, 08:00 até 12:00 / 13:30 até 19:00 - </span>
+    <span class="span-header">Cachoeira do Sul - RS</span>
   </div>
-</section>
+  
+  <!-- MODO MOBILE -->
+<input type="checkbox" id="menu">
+
+
+  <header class="js-menu">
+        <div  class="logo">
+          <a href="index.html"><img src="imagens/logo-nutri.svg" alt="logo"></a>
+        </div>
+
+        <!-- MODO MOBILE -->
+<label for="menu">
+  <div></div>
+  <div></div>
+  <div></div>
+</label>
+        <!-- FIM MODO MOBILE -->
+        <nav class="js-menu">
+          <a href="index.html">Início</a>
+          <a href="sobre.html">Sobre</a>
+          <a href="#servicos">Serviços</a>
+          <a href="#" class="botao-agendar-header">
+            <img src="imagens/redes/whats.svg" alt="whats">Agendar Consulta
+          </a>
+        </nav>
+  </header>
+
+<main>
+  <section class="background-index fade-in">
+    <div class="conteudo-index">
+      <h1>Você já pensou em ir em uma nutricionista que irá avaliar sua saude global?</h1>
+      <p>Desde a qualidade do sono, saúde intestinal, performance física e mental, exames bioquímicos e alcançar os objetivos que você tanto almeja com individualidade e muito conhecimento!</p>
+      <a href="#" class="botao-agendar">
+      <img src="imagens/redes/whats.svg" alt="whatsapp">
+      Agendar Consulta
+    </a>
+    </div>
+  </section>
+</main>
 
 <section class="conteudo-abordagens">
-  <div class="container-titulo-abord">
+  <div class="container-titulo-abord fade-in">
     <h1>Abordagens Nutricionais</h1>
     <p>Por que consultar um Nutricionista?</p>
   </div>
   <p class="texto-abordagem">Muitas pessoas acreditam que o nutricionista é necessário apenas para objetivos estéticos ou de auto-estima, como melhorar a composição corporal e o desempenho esportivo. No entanto, uma dieta personalizada vai muito além disso, podendo contribuir significativamente para a melhora de diversos sintomas e condições de saúde. Alimentação inadequada pode agravar problemas como falta de energia, desequilíbrios hormonais, disfunções digestivas (como gastrite e refluxo), baixa imunidade, intolerâncias alimentares, alergias, queda de cabelo, unhas frágeis, doenças autoimunes, acne, entre outros. Se sua saúde ou performance não estão ideais, a nutrição pode ser uma grande aliada.</p>
 </section>
 
-<section class="container-trabalhos-branco">
-  <div class="trabalhos-conteudo-branco">
+<section class="container-trabalhos-branco" id="servicos">
+  <div class="trabalhos-conteudo-branco fade-in">
     <img src="imagens/imagens-servicos/equilibrio.png" alt="imagem equilibrio">
     <div class="textos-trabalho-branco">
       <h1>Equilíbrio Nutricional</h1>
@@ -49,7 +80,7 @@
 </section>
 
 <section class="container-trabalhos-preto">
-  <div class="trabalhos-conteudo-preto">
+  <div class="trabalhos-conteudo-preto fade-in">
     <div class="textos-trabalho-preto">
       <h1>Controle de Peso</h1>
       <p>A chave não é comer menos, mas sim escolher os alimentos certos para o seu corpo. Descubra como uma nutrição adequada pode acelerar seu processo de perda de peso.</p>
@@ -63,7 +94,7 @@
 </section>
 
 <section class="container-trabalhos-branco">
-  <div class="trabalhos-conteudo-branco">
+  <div class="trabalhos-conteudo-branco fade-in">
     <img src="imagens/imagens-servicos/hiper.png" alt="hipertrofia">
     <div class="textos-trabalho-branco">
       <h1>Hipertrofia Muscular</h1>
@@ -77,7 +108,7 @@
 </section>
 
 <section class="container-trabalhos-preto">
-  <div class="trabalhos-conteudo-preto">
+  <div class="trabalhos-conteudo-preto fade-in">
     <div class="textos-trabalho-preto">
       <h1>Nutrição Esportiva</h1>
       <p>Nutrição estratégica para levar seu desempenho esportivo ao próximo nível. A alimentação correta é tão importante quanto o treino para alcançar seu melhor.</p>
@@ -91,7 +122,7 @@
 </section>
 
 <section class="container-trabalhos-branco">
-  <div class="trabalhos-conteudo-branco">
+  <div class="trabalhos-conteudo-branco fade-in">
     <img src="imagens/imagens-servicos/intolerancia.png" alt="intolerancia">
     <div class="textos-trabalho-branco">
       <h1>Intolerâncias Alimentares</h1>
@@ -106,8 +137,8 @@
 
 <section class="container-agende">
   <h1 class="titulo-agende">Agende sua Consulta</h1>
-  <div class="conteudo-agende">
-    <img src="imagens/pessoa.png" alt="pessoa">
+  <div class="conteudo-agende fade-in">
+    <img src="imagens/pessoa.png" alt="pessoa" class="pessoa-agende">
       <div class="textos-agende">
         <h2>Mariana Barreto</h2>
         <a href="#" class="link-agende"><img src="imagens/icons-consulta/telefone.svg" alt="telefone">(61) 99857-0210</a>
@@ -121,103 +152,7 @@
       </div>
     </section>
 
-    <section class="conteudo-abordagens">
-      <div class="container-titulo-abord">
-        <h1>Abordagens Nutricionais</h1>
-        <p>Por que consultar um Nutricionista?</p>
-      </div>
-      <p class="texto-abordagem">Muitas pessoas acreditam que o nutricionista é necessário apenas para objetivos estéticos ou de auto-estima, como melhorar a composição corporal e o desempenho esportivo. No entanto, uma dieta personalizada vai muito além disso, podendo contribuir significativamente para a melhora de diversos sintomas e condições de saúde. Alimentação inadequada pode agravar problemas como falta de energia, desequilíbrios hormonais, disfunções digestivas (como gastrite e refluxo), baixa imunidade, intolerâncias alimentares, alergias, queda de cabelo, unhas frágeis, doenças autoimunes, acne, entre outros. Se sua saúde ou performance não estão ideais, a nutrição pode ser uma grande aliada.</p>
-    </section>
-
-    <section class="container-trabalhos-branco">
-      <div class="trabalhos-conteudo-branco">
-        <img src="imagens/imagens-servicos/equilibrio.png" alt="">
-        <div class="textos-trabalho-branco">
-          <h1>Equilíbrio Nutricional</h1>
-          <p>Identifica e corrige os desequilíbrios nutricionais que afetam seu bem-estar.Foca em tratar a causa dos problemas e não apenas os sintomas.</p>
-          <a href="#" class="botao-trabalho-branco">
-            <img src="imagens/icon-botao-saibamias.svg" alt="">
-            Agendar Consulta
-          </a>
-        </div>
-      </div>
-    </section>
-
-    <section class="container-trabalhos-preto">
-      <div class="trabalhos-conteudo-preto">
-        <div class="textos-trabalho-preto">
-          <h1>Controle de Peso</h1>
-          <p>A chave não é comer menos, mas sim escolher os alimentos certos para o seu corpo. Descubra como uma nutrição adequada pode acelerar seu processo de perda de peso.</p>
-          <a href="#" class="botao-trabalho-preto">
-            <img src="imagens/icon-botao-saibamias.svg" alt="">
-            Agendar Consulta
-          </a>
-        </div>
-        <img src="imagens/imagens-servicos/controle.png" alt="">
-      </div>
-    </section>
-
-    <section class="container-trabalhos-branco">
-      <div class="trabalhos-conteudo-branco">
-        <img src="imagens/imagens-servicos/hiper.png" alt="">
-        <div class="textos-trabalho-branco">
-          <h1>Hipertrofia Muscular</h1>
-          <p>Maximize seus ganhos musculares com uma dieta alinhada ao seu treino. Nutrição adequada é a base para transformar esforço em resultados visíveis.</p>
-          <a href="#" class="botao-trabalho-branco">
-            <img src="imagens/icon-botao-saibamias.svg" alt="">
-            Agendar Consulta
-          </a>
-        </div>
-      </div>
-    </section>
-
-    <section class="container-trabalhos-preto">
-      <div class="trabalhos-conteudo-preto">
-        <div class="textos-trabalho-preto">
-          <h1>Nutrição Esportiva</h1>
-          <p>Nutrição estratégica para levar seu desempenho esportivo ao próximo nível. A alimentação correta é tão importante quanto o treino para alcançar seu melhor.</p>
-          <a href="#" class="botao-trabalho-preto">
-            <img src="imagens/icon-botao-saibamias.svg" alt="">
-            Agendar Consulta
-          </a>
-        </div>
-        <img src="imagens/imagens-servicos/nutri.png" alt="">
-      </div>
-    </section>
-
-    <section class="container-trabalhos-branco">
-      <div class="trabalhos-conteudo-branco">
-        <img src="imagens/imagens-servicos/intolerancia.png" alt="">
-        <div class="textos-trabalho-branco">
-          <h1>Intolerâncias Alimentares</h1>
-          <p>Identifique e adapte sua dieta para evitar desconfortos e melhorar sua qualidade de vida. Alimente-se de forma segura e saborosa, respeitando suas necessidades e restrições alimentares.</p>
-          <a href="#" class="botao-trabalho-branco">
-            <img src="imagens/icon-botao-saibamias.svg" alt="">
-            Agendar Consulta
-          </a>
-        </div>
-      </div>
-    </section>
-
-    <section class="container-agende">
-      <h1 class="titulo-agende">Agende sua Consulta</h1>
-      <div class="conteudo-agende">
-        <img src="imagens/pessoa.png" alt="">
-        <div class="textos-agende">
-          <h2>Mariana Barreto</h2>
-          <a href="#" class="link-agende"><img src="imagens/icons-consulta/telefone.svg" alt="">(61) 99857-0210</a>
-          <a href="#" class="link-agende"><img src="imagens/icons-consulta/email.svg" alt="">seuemailaqui@gmail.com</a>
-          <a href="#" class="link-agende"><img src="imagens/icons-consulta/local.svg" alt="">Rua Monick Sul, Sala 227, Rio Grande do Sul, RS</a>
-          <a href="#" class="link-agende"><img src="imagens/icons-consulta/atendimento.svg" alt="">Atendimento de Segunda a Sexta das 08:00 às 20:00</a>
-          <a href="#" class="link-agende botao-agende">
-            <img src="imagens/redes/whats.svg" alt="">
-            Agendar Consulta
-          </a>
-        </div>
-      </div>
-    </section>
-
-    <section class="container-comofunciona">
+    <section class="container-comofunciona fade-in">
       <h1>Como Funciona?</h1>
       <p>Uma consulta envolve o agendamento, seguido pela anamnese e avaliação física, onde são coletadas informações sobre saúde, histórico médico e hábitos alimentares
         <br>
@@ -226,13 +161,16 @@
         Agende já!
       </p>
 
-      <div class="mapa">
+      <div class="mapa fade-in">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8817767.45289048!2d-58.96106756728875!3d-30.309988379067974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9504720c40b45803%3A0xad9fb3dbaf9f73de!2sRio%20Grande%20do%20Sul!5e1!3m2!1spt-BR!2sbr!4v1726875596188!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
     </section>
 
   </main>
 
+  <footer>
+    <p>Site desenvolvido por <a href="https://github.com/samuelbonini" target="_blank">@samuelbonini</a></p>
+  </footer>
+  <script src="script.js" defer></script>
 </body>
-
 </html>
