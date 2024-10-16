@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .header-index {
   background-color: #d92d2f;
 }
@@ -10,7 +9,7 @@
 
 .span-header {
   color: #e4ecee;
-=======
+
 .header-redes {
   display: flex;
   align-items: center;
@@ -74,7 +73,6 @@ nav img {
   display: inline-flex;     /* Alinha o ícone e o texto lado a lado */
   align-items: center;      /* Centraliza verticalmente o ícone e o texto */
   color: #E4ECEE;
->>>>>>> eea9c0615d80cad6574a794e055bd143c5463952
   font-family: "Saira", sans-serif;
   font-optical-sizing: auto;
   font-weight: 500;
@@ -84,7 +82,6 @@ nav img {
   align-items: flex-start;
 }
 
-<<<<<<< HEAD
 .header-menu {
   display: flex;
   justify-content: space-between;
@@ -168,7 +165,7 @@ input {
     position: absolute;
     top: 90px;
     background: #d92d2f;
-=======
+
 input {
   display: none; 
 }
@@ -178,13 +175,12 @@ input {
     position: absolute;
     top: 100px;
     background: #D92D2F;
->>>>>>> eea9c0615d80cad6574a794e055bd143c5463952
     left: 0;
     flex-direction: column;
     width: 100%;
     align-items: center;
     height: 0;
-<<<<<<< HEAD
+
     gap: 10px;
     transition: 0.5s;
     overflow: hidden;
@@ -209,7 +205,6 @@ input {
     border-radius: 99px;
     transition: 0.3s;
     transform: scale(1);
-=======
     transition: 0.5s;
     overflow: hidden;
     gap: 20px;
@@ -232,13 +227,12 @@ input {
      border-radius: 99px;
      transition: 0.3s;
      transform: scale(1);
->>>>>>> eea9c0615d80cad6574a794e055bd143c5463952
   }
 
   label div:nth-child(1) {
     top: 0;
   }
-<<<<<<< HEAD
+ HEAD
   label div:nth-child(2) {
     top: 50%;
   }
@@ -248,7 +242,7 @@ input {
   input:checked + header .header-buttons {
     height: 30vh;
     border-bottom: 3px solid #121215;
-=======
+
   
   label div:nth-child(2) {
     top: 50%;
@@ -259,7 +253,6 @@ input {
   }
   input:checked + header nav {
 height: 36vh;
->>>>>>> eea9c0615d80cad6574a794e055bd143c5463952
   }
   input:checked + header label div:nth-child(1) {
     transform: rotate(45deg);
@@ -270,7 +263,6 @@ height: 36vh;
     top: 50%;
   }
   input:checked + header label div:nth-child(2) {
-<<<<<<< HEAD
     transform: scale(0);
     opacity: 0;
   }
@@ -301,9 +293,3 @@ height: 36vh;
 }
 
 /* FIM CSS HEADER */
-=======
-   transform: scale(0);
-   opacity: 0;
-  }
-}
->>>>>>> eea9c0615d80cad6574a794e055bd143c5463952
